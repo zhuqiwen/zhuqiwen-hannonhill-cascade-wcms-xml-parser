@@ -1,0 +1,21 @@
+{
+  "name": "iu-vpcm-dc/wcms-xml-paser",
+  "description": "This lib parses plain xml into formats returned by Cascade Server webservices",
+  "type": "library",
+  "license": "GPL-3.0-only",
+  "authors": [
+    {
+      "name": "Qiwen Zhu",
+      "email": "qiwzhu@iu.edu"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Edu\\IU\\Wcms\\XmlParser\\": "src"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.0"
+  }
+}
